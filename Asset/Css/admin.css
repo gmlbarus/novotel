@@ -1,0 +1,132 @@
+.menu_list {	
+	width:180px;
+	back.ground:grey;
+	bord.er:1px solid grey;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px 0px 5px 0px;
+	-o-border-radius: 5px;
+}
+.menu_head:hover{
+	color:orange;
+	text-shadow:none;
+	padding-left:20px;
+}
+.menu_head {
+	padding: 10px;
+	cursor: pointer;
+	text-shadow: 2px 2px silver;
+	position: relative;
+	margin:1px;
+	color:white;
+    font-weight:bold;
+	text-transform:uppercase;
+    background: grey url(../images/left.png) center right no-repeat;
+	-moz-border-radius: 5px 0px 35px 0px;
+	-webkit-border-radius: 5px 0px 35px 0px;
+	-o-border-radius: 5px 0px 35px 0px;
+}
+.menu_body {
+	display:none;
+	border:1px dotted grey;
+	text-transform:capitalize;
+}
+.menu_body a{
+  display:block;
+  color:#006699;
+  background-color:white;
+  padding:10px;
+  font-weight:bold;
+  text-decoration:none;
+
+}
+.menu_body a:hover{
+  color: #000000;
+  font-size:14pt;
+  text-decoration:none;
+  }
+  
+ #firstpane{
+	margin-top:30px;
+ }
+ 
+ #rightBar{
+	position:;
+	min-width: 200px;
+	max-width: 1140px;
+	float: left;
+	padding: 0 0 20px 10px;
+	text-align: justify;
+	min-height:500px;
+}
+
+.judul{
+	width:300px;
+	font-style:italic;
+	margin-top:10px;
+	font-size:18pt;
+	font-weight:bold;
+	background:grey;
+	padding:10px;
+	color:white;
+	border:2px solid silver;
+	-moz-border-radius: 5px 0px 35px 0px;
+	-webkit-border-radius: 	15px 0px 15px 0px;
+	-o-border-radius: 5px 0px 35px 0px;
+	text-shadow: 1px 1px silver;
+	background: #fff url(../images/bg_foot.png) repeat;
+	text-transform:capitalize;
+}
+.subjudul{
+	font-size:16pt;
+	text-transform:capitalize;
+}
+
+.pemakaian{
+	font-size:12pt;
+	padding:5px;
+	color:grey;
+	border:1px dotted grey;
+}
+.detail_pemakaian pre{
+	font-size:10pt;
+	padding:-5px;
+	color:red;
+	border:1px dotted grey;
+}
+.pemakaian td{
+	padding:10px;
+	color:grey;		
+}
+.detailpemakaian td{
+	border:1px dotted grey;
+	
+	padding-left:15px;
+}
+.detailpemakaian th{
+	padding:5px;
+	border:1px dotted grey;
+	padding-left:15px;
+}
+.detailpemakaian{
+	font-size:12pt;
+	border-collapse: collapse;
+	border:1px dotted grey;
+}
+#grafik-holder{
+		margin-top:20px;
+		margin-bottom:20px;
+		padding-bottom:20px;
+		width:1000px;
+		text-align:center;
+		border:1px dotted grey;
+	}
+.print
+{
+	background: url(../images/print.png) no-repeat center left;
+	float: left;
+	text-align: center;
+	height: 22px;
+	padding-left:20px;
+	padding-top:2px;
+	cursor: pointer;
+}
