@@ -1,10 +1,10 @@
-<?php 
+<?php
 	session_start();
 	if(!isset($_SESSION['admin-limas']) or empty($_SESSION['admin-limas']))
 	{
 		echo'	<script language=javascript>
 					document.location.href="../login";
-				</script> 
+				</script>
 			';
 	}
 
@@ -23,7 +23,7 @@
 
 <!-- tiny mce --------------------------------------->
 <!-- Place inside the <head> of your HTML -->
-<script type="text/javascript" src="../Asset/tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript" src="../asset/tinymce/js/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
 tinymce.init({
     selector: "textarea"
@@ -38,13 +38,13 @@ tinymce.init({
 <script type="text/javascript" language="javascript" src="../asset/js/jquery.js"></script>
 <script type="text/javascript">
 <!--//---------------------------------+
-//  Developed by Roshan Bhattarai 
+//  Developed by Roshan Bhattarai
 //  Visit http://roshanbh.com.np for this script and more.
 //  This notice MUST stay intact for legal use
 // --------------------------------->
 $(document).ready(function()
 {
-	//slides the element with class "menu_body" when paragraph with class "menu_head" is clicked 
+	//slides the element with class "menu_body" when paragraph with class "menu_head" is clicked
 	$("#firstpane p.menu_head").click(function()
     {
 		$(this).css({backgroundImage:"url(../asset/images/down2.png)"}).next("div.menu_body").slideToggle(100).siblings("div.menu_body").slideUp("slow");
@@ -105,7 +105,7 @@ $(document).ready(function()
 						<a href="?page=laporan-pelanggan">Laporan Pelanggan</a>
 						<a href="?page=laporan-sms">Laporan SMS</a>
 						</div>
-				</div>  <!--Code for menu ends here -->		
+				</div>  <!--Code for menu ends here -->
 			</div>
 			<div id="rightContent">
 				<?php include 'isi/isi.php';?>
@@ -117,7 +117,7 @@ $(document).ready(function()
 		<div id="footer" class="before">
 				<a href="#">Kelompok CRM | Hotel Novotel</a><br>
 		</div>
-	
+
 	</div>
 </body>
 </html>
