@@ -13,7 +13,7 @@ $sub= $_POST['sub'];
 	else
 	{	echo 'nak masuk input';
 		if($sub=='input'){
-			$sand='root';
+			$sand='';
 			$pengg='root';
 			$basis='sms-limas';
 			$lewat=mySQL_escape_string($sand);
