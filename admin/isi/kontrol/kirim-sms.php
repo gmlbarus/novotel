@@ -1,5 +1,4 @@
 <?php
-var_dump($_POST);
 //include '../../../login/hub.php';
 $sms = strip_tags($_POST['sms']);
 $no = $_POST['no'];
@@ -11,7 +10,7 @@ $sub= $_POST['sub'];
 			</script>";
 	}
 	else
-	{	echo 'nak masuk input';
+	{
 		if($sub=='input'){
 			$sand='';
 			$pengg='root';
